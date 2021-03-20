@@ -89,7 +89,7 @@ const Messages = ({ user }) => {
 
 const Chat = () => {
   const [state, stateSet] = React.useState({
-    user: "Jack",
+    user: "Razvan",
     content: "",
   });
 

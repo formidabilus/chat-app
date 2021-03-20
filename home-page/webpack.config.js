@@ -43,7 +43,7 @@ module.exports = {
       name: "home",
       filename: "remoteEntry.js",
       remotes: {
-        chat: "chat",
+        chat: "chat@http://localhost:8080/remoteEntry.js",
       },
       exposes: {},
       shared: {
